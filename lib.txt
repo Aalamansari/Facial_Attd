@@ -1,0 +1,9 @@
+Used for facial-recognition it used for compiling C++ libraries {cmake , dlib , face-recog}
+
+Used for accessing camera {Haar cascade face, cv2}
+
+Used for accessing database {mysql.connector (DB)}
+
+gtts(online)- pytts3(offline) (text to speech)
+
+playsound (play audio file) (use older version)
