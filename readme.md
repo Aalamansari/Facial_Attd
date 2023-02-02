@@ -1,8 +1,14 @@
 Image recognition based Attendance System
 
 IMPORTANT
+***
 Follow the link given below to properly download dlib && Visual C++
 https://www.geeksforgeeks.org/how-to-install-dlib-library-for-python-in-windows-10/
+
+Import the given database using MySQL Workbench
+Change the credentials of the database in the file recogFace.py
+
+***
 
 Other libraries:-
 pip install face-recognition
@@ -59,26 +65,3 @@ The files in init_data are the initial data required which are the haarcascade.x
 •	encodings.pickle :- The pickle file contains data about the face encodings and their respective names. Every time a new face is detected and the corresponding photos are taken the face_recognition library compares the encodings of the detected face and the face encodings present in the pickle file and therefore returns the best match and their corresponding name stored in the pickle file. The same file is also updated when a new face is to be registered.
 •	frame_box.json :- The frame_box file contains the height and width of the area of rectangle drawn. Any face that inside this box is only sent for detection. This value can be changed based on the output screen of the device.
 •	GUI files are created using the PyQt5 designer and they are imported into the python code. Used for showing popups on confirmation and registration and also input the name of the new registers.
-
-
-
-
-Screenshots: -
-
-Faces not in frame not sent for detection
-
-Face in frame captured as an image and sent for detection
-
-
-
-
-Name prompt if face not detected
-
-
-
-
-Capturing new face for retraining the model
-
-Timeout starts if face out of frame during retraining
-
-
