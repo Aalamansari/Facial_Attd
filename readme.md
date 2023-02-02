@@ -1,7 +1,7 @@
 Image recognition based Attendance System
-
-IMPORTANT
 ***
+IMPORTANT
+
 Follow the link given below to properly download dlib && Visual C++
 https://www.geeksforgeeks.org/how-to-install-dlib-library-for-python-in-windows-10/
 
