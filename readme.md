@@ -13,6 +13,7 @@ Change the credentials of the database in the file recogFace.py
 Other libraries:-
 pip install face-recognition
 pip install opencv-python
+pip install PyQt5
 pip install imutils
 pip install playsound==1.2.2 (Newer version unstable)
 pip install mysql-connector
